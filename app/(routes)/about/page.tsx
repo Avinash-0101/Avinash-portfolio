@@ -33,15 +33,14 @@ export default function AboutPage() {
           >
             <h2 className="text-2xl font-bold mb-4">Who I Am</h2>
             <div className="space-y-4 text-muted-foreground">
+             <p>
+              I'm Avinash Burnwal, a Full Stack Developer passionate about building innovative, scalable web applications and exploring cutting-edge DevOps technologies. Currently pursuing my Bachelor's in Computer Science, I am dedicated to enhancing my technical expertise and delivering impactful solutions through continuous learning and hands-on projects.
+            </p>
+
               <p>
-                I&apos;m Achyut Katiyar, a Full Stack Developer with a passion for creating innovative web applications and exploring blockchain technologies. I&apos;m currently pursuing a Master&apos;s in Computer Science at Northeastern University, where I continue to expand my knowledge and skills.
+                With expertise in Next.js, React,  I enjoy building scalable and user-friendly applications that solve real-world problems. My background in computer science has given me a strong foundation in algorithms, data structures, and system design, which I apply to create efficient and maintainable code.
               </p>
-              <p>
-                With expertise in Next.js, React, and various blockchain technologies, I enjoy building scalable and user-friendly applications that solve real-world problems. My background in computer science has given me a strong foundation in algorithms, data structures, and system design, which I apply to create efficient and maintainable code.
-              </p>
-              <p>
-                I&apos;m particularly interested in the intersection of web development and blockchain technology, where I&apos;ve developed several projects that leverage the power of decentralized systems to create secure and transparent applications.
-              </p>
+              
             </div>
 
             <h2 className="text-2xl font-bold mt-8 mb-4">Education</h2>
@@ -97,49 +96,32 @@ export default function AboutPage() {
               </div>
             ))}
 
-            <h2 className="text-2xl font-bold mt-8 mb-4">Achievements</h2>
-            <Card>
-              <CardContent className="p-4">
-                <ul className="space-y-3">
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">•</span>
-                    <span>
-                      Led University&apos;s Technical Team as Convener, increasing student engagement by 40% through committee formation and industry-aligned website redesigns.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">•</span>
-                    <span>
-                      Served as a Board Member of the APP Design and Development Club, mentoring newcomers and improving skills by 60%.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">•</span>
-                    <span>
-                      Won $1500 Nillion Track Prize at Hacker House Goa 2024.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">•</span>
-                    <span>
-                      Awarded $600 at Move it with Aptos event.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">•</span>
-                    <span>
-                      Received $500 Marbelism Track Prize at HACKSRM 2.0 2024.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-primary mr-2 font-bold">•</span>
-                    <span>
-                      Won $100 at APPATHON 2022.
-                    </span>
-                  </li>
-                </ul>
-              </CardContent>
-            </Card>
+            <h2 className="text-2xl font-bold mt-8 mb-4"> ACHIEVEMENTS/POSITIONS OF RESPONSIBILITY</h2>
+                <Card>
+                  <CardContent className="p-4">
+                    <ul className="space-y-3">
+                      <li className="flex items-start">
+                        <span className="text-primary mr-2 font-bold">•</span>
+                        <span>
+                          Secured a <strong>Top 10 Rank</strong> in <strong>HackHeritage Hackathon 2025</strong>.
+                        </span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-primary mr-2 font-bold">•</span>
+                        <span>
+                          Solved <strong>300+ Data Structures & Algorithms</strong> problems across platforms like LeetCode, Codeforces, and GFG.
+                        </span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="text-primary mr-2 font-bold">•</span>
+                        <span>
+                          Successfully completed a <strong>30-Day Coding Challenge</strong>, building strong problem-solving consistency.
+                        </span>
+                      </li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
           </motion.div>
         </div>
       </div>

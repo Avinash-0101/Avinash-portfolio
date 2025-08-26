@@ -10,21 +10,14 @@ export interface Education {
   }
   
   export const education: Education[] = [
+
     {
-      id: "northeastern",
-      degree: "Master's in Computer Science",
-      institution: "Northeastern University",
-      location: "Boston, Massachusetts, USA",
-      startDate: "January 2025",
-      endDate: "May 2027"
-    },
-    {
-      id: "srm",
-      degree: "Bachelor of Science in Computer Science",
-      institution: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "October 2020",
-      endDate: "May 2024",
-      gpa: "8.3/10.00"
+      id: "HITK",
+      degree: "Bachelor of Science in Computer Science & Bussiness System",
+      institution: "Heritage Institute of Technology",
+      location: "Chowbaga, Kolkata",
+      startDate: "October 2022",
+      endDate: "June 2026",
+      gpa: "7.3/10.00"
     }
   ];
