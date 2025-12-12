@@ -41,7 +41,7 @@ export const projects: Project[] = [
     "Designed a responsive UI ensuring accessibility on all devices"
   ],
   image: "/images/projects/studynotion/studynotion.png",
-  github: "https://github.com/yourusername/studynotion",
+  github: "https://github.com/Avinash-0101/online-classroom-and-examination",
   featured: true
 },
 {
